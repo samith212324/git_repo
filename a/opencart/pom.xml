@@ -23,6 +23,11 @@
     </dependency>
   </dependencies>
   <distributionManagement>
+   <repository>
+        <id>central</id>
+        <name>DESKTOP-F23DK7G-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>
   <snapshotRepository>
         <id>central</id>
         <name>DESKTOP-F23DK7G-snapshots</name>
