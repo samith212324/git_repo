@@ -37,15 +37,17 @@
  </build> 
 
 <distributionManagement>
-    <snapshotRepository>
-        <id>central</id>
-        <name>DESKTOP-F23DK7G-snapshots</name>
-        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
-    </snapshotRepository>
     <repository>
         <id>central</id>
         <name>DESKTOP-F23DK7G-releases</name>
         <url>http://localhost:8081/artifactory/libs-release-local</url>
     </repository>
+	
+    <snapshotRepository>
+        <id>central</id>
+        <name>DESKTOP-F23DK7G-snapshots</name>
+        <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+
 </distributionManagement>
 </project>
