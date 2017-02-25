@@ -3,7 +3,7 @@
 
   <groupId>pharmacy</groupId>
   <artifactId>medicine</artifactId>
-  <version>2.4-SNAPSHOT</version>
+  <version>2.4</version>
   <packaging>jar</packaging>
 
   <name>medicine</name>
@@ -12,7 +12,7 @@
 	<url>https://github.com/samith212324/git_repo.git</url>
 	<connection>scm:git:git://github.com/samith212324/git_repo.git</connection>
 	<developerConnection>scm:git:git@github.com:samith212324/git_repo.git</developerConnection>
-     <tag>HEAD</tag>
+     <tag>medicine-2.4</tag>
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
